@@ -1,0 +1,120 @@
+.bg-container{
+    background-color: rgb(242, 254, 255);
+    text-align: center
+}
+.bg-container h1{
+    color: rgb(47, 56, 63);
+}
+.bg-container h4{
+    color: rgb(135, 162, 181);
+}
+.userlist-container{
+    text-align: left;
+    font-size: small;
+    color: rgb(85, 62, 62);
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    width: 150px;
+    overflow: auto;
+   
+}
+
+.user-items{
+    display: flex;
+  
+   flex-wrap: wrap;
+    
+}
+
+.create-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.create-user input{
+    margin: 5px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    height: 23px;
+    width: 250px;
+
+}
+
+.create-user button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.create-user button:hover{
+    background-color: rgb(1, 163, 227);
+    cursor: pointer;
+}
+.edit-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.edit-user input{
+    margin: 5px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    height: 23px;
+    width: 250px;
+
+}
+
+.edit-user button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240, 223, 111);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.edit-user button:hover{
+    background-color:rgb(212, 195, 84);
+    cursor: pointer;
+}
+
+.delete-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.delete-user input{
+    margin: 5px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    height: 23px;
+    width: 250px;
+
+}
+
+.delete-user button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(236, 88, 55);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.delete-user button:hover{
+    background-color: rgb(207, 74, 45);
+    cursor: pointer;
+}
